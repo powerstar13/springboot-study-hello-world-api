@@ -22,3 +22,26 @@ GET http://localhost:8080/api/get/query-param2?name=master&email=master@gmail.co
 ### QueryParam3
 // http://localhost:{port}/api/get/query-param3
 GET http://localhost:8080/api/get/query-param3?name=master&email=master@gmail.com&age=10
+
+### POST API
+POST http://localhost:8080/api/post
+Content-Type: application/json
+
+{
+  "account": "user01",
+  "email": "user@gmail.com",
+  "address": "패스트캠퍼스",
+  "password": "abcd"
+}
+
+### POST Request DTO API
+POST http://localhost:8080/api/post-request
+Content-Type: application/json
+
+{
+  "account": "user01",
+  "email": "user@gmail.com",
+  "address": "패스트캠퍼스",
+  "password": "abcd",
+  "phone_number": "010-1234-1234"
+}

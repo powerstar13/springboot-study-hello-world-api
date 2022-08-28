@@ -45,3 +45,23 @@ Content-Type: application/json
   "password": "abcd",
   "phone_number": "010-1234-1234"
 }
+
+### PUT Request DTO API
+// http://localhost:8080/api/put/{userId}
+PUT http://localhost:8080/api/put/100
+Content-Type: application/json
+
+{
+  "name": "master",
+  "age": 20,
+  "car_list": [
+    {
+      "name": "BMW",
+      "car_number": "11가 1234"
+    },
+    {
+      "name": "A4",
+      "car_number": "22가 3456"
+    }
+  ]
+}

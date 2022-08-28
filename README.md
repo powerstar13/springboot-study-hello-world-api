@@ -36,3 +36,8 @@
 4. @Controller 애노테이션을 사용하여 페이지 리소스를 사용하는 방식
 5. @Controller 애노테이션 하에서 Json Response를 내려주고 싶은 경우 @ResponseBody 애노테이션을 사용하는 방식
 6. @JsonInclude 애노테이션을 사용하여 포함시킬 값의 룰을 지정하는 방식
+
+## ObjectMapper 사례
+
+1. writeValueAsString() 메서드 사용 Object를 text로 매핑하기
+2. readValue() 메서드 사용하여 text를 Object로 매핑하기

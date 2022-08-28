@@ -65,3 +65,7 @@ Content-Type: application/json
     }
   ]
 }
+
+### DELETE API
+// http://localhost:8080/api/delete/{userId}
+DELETE http://localhost:8080/api/delete/100?account=user100

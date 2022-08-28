@@ -22,3 +22,8 @@
 3. @PathVariable 애노테이션을 사용하는 방식
 4. @JsonNaming 애노테이션을 사용하여 클래스 전체의 룰을 설정하는 방식
 5. @JsonProperty 애노테이션을 사용하여 특정 변수를 매핑하는 방식
+
+## DELETE API
+
+1. @DeleteMapping 애노테이션을 사용하는 방식
+2. @PathVariable, @RequestParam 애노테이션을 사용하는 방식

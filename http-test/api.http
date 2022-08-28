@@ -69,3 +69,34 @@ Content-Type: application/json
 ### DELETE API
 // http://localhost:8080/api/delete/{userId}
 DELETE http://localhost:8080/api/delete/100?account=user100
+
+### GET Text Response
+GET http://localhost:8080/api/text?account=user100
+
+### POST Json Response
+POST http://localhost:8080/api/json
+Content-Type: application/json
+
+{
+  "name": "master",
+  "age": 10,
+  "phone_number": "010-1234-12334",
+  "address": "패스트캠퍼스"
+}
+
+### PUT ResponseEntity Json Response
+PUT http://localhost:8080/api/put
+Content-Type: application/json
+
+{
+  "name": "master",
+  "age": 10,
+  "phone_number": "010-1234-12334",
+  "address": "패스트캠퍼스"
+}
+
+### GET main page
+GET http://localhost:8080/main
+
+### GET User ResponseBody Response
+GET http://localhost:8080/user

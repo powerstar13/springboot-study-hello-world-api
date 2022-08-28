@@ -1,2 +1,24 @@
-### Hello World API
+### Hello World
 GET http://localhost:8080/api/hello
+
+### GetMapping hello
+GET http://localhost:8080/api/get/hello
+
+### RequestMapping GET hi
+GET http://localhost:8080/api/get/hi
+
+### PathVariable
+// http://localhost:{port}/api/get/path-variable/{name}
+GET http://localhost:8080/api/get/path-variable/hello
+
+### QueryParam
+// http://localhost:{port}/api/get/query-param
+GET http://localhost:8080/api/get/query-param?name=master&email=master@gmail.com&age=10
+
+### QueryParam2
+// http://localhost:{port}/api/get/query-param2
+GET http://localhost:8080/api/get/query-param2?name=master&email=master@gmail.com&age=10
+
+### QueryParam3
+// http://localhost:{port}/api/get/query-param3
+GET http://localhost:8080/api/get/query-param3?name=master&email=master@gmail.com&age=10
